@@ -14,7 +14,7 @@ import "fmt"
 
 func sumOfSquares(x int) int {
 	var sum int
-	i := 1
+	var i int
 	for i <= x {
 		sum += i * i
 		i++
@@ -24,7 +24,7 @@ func sumOfSquares(x int) int {
 
 func squareOfSums(y int) int {
 	var square int
-	i := 0
+	var i int
 	for i <= y {
 		square += i
 		i++
